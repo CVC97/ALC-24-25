@@ -1,0 +1,88 @@
+# This file was created Thu Nov 14 17:13:37 2024
+
+# Created by:
+
+#          :-) GROMACS - gmx analyze, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+
+# 
+
+# Executable:   /usr/bin/gmx
+
+# Data prefix:  /usr
+
+# Working dir:  /home/carlo/Documents/Studium/Physics_M.Sc/S1/Advanced_Lab_Course/BK.MDS_molecular_dynamics_simulations_of_proteins/data/COPY_THIS_Caro_Carlo/mp-dd-espring
+
+# Command line:
+
+#   gmx analyze -f dist.xvg -dist hist-dist.xvg -bw 0.1
+
+# gmx analyze is part of G R O M A C S:
+
+#
+
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+
+#
+
+@    title "Distribution"
+
+@    xaxis  label ""
+
+@   yaxis  label  "Free Energy [kJ/mol]"
+@TYPE xy
+
+  0.5   2.20575
+  0.6   0.784775
+  0.7   1.05672
+  0.8   0.348091
+  0.9       0
+    1   0.270654
+  1.1   0.932528
+  1.2   1.81826
+  1.3   2.21612
+  1.4   2.70862
+  1.5   3.40523
+  1.6   4.11727
+  1.7   4.19648
+  1.8   4.87986
+  1.9   4.97225
+    2   5.51324
+  2.1   6.91408
+  2.2   7.20362
+  2.3   7.90848
+  2.4   8.67754
+  2.5   8.82012
+  2.6   9.79514
+  2.7   9.30445
+  2.8   9.79514
+  2.9   9.13234
+    3   10.4066
+  3.1   9.21691
+  3.2   8.89459
+  3.3   8.82012
+  3.4   8.23432
+  3.5   8.47788
+  3.6   7.71274
+  3.7   7.62034
+  3.8   7.85809
+  3.9   7.48785
+    4   7.16554
+  4.1   8.17697
+  4.2   7.20362
+  4.3   8.17697
+  4.4   7.44521
+  4.5   8.12091
+  4.6   8.41472
+  4.7   8.82012
+  4.8   11.6351
+  4.9   11.6351
+    5   10.4066
+  5.1   11.0335
+  5.2   12.7626
+  5.3   15.8876
+  5.4   14.8761
+  5.5   15.8876
+  5.6   15.8876
+  5.7   17.6166
+  5.8   17.6166
+  5.9   17.6166

@@ -1,0 +1,76 @@
+; topology for a LJ-13 polymer chain
+
+[ defaults ]
+1 1
+
+[ atomtypes ]
+P4 72.0 0.000 A 0.0 0.0
+P5 72.0 0.000 A 0.0 0.0
+
+[ nonbond_params ]
+; atom   atom   function    C6     C12
+P4    P4      1       0.21558E-00     0.23238E-02 ; (sig=0.47 nm,  eps=5 kj/mol) 
+P4    P5      1       0.3E-00         0.3E-02     ; (sig=0.464 nm, eps=7.5 kJ/mol)
+P5    P5      1       0.4E-00         0.4E-02     ; (sig=0.464 nm, eps=10.0 kJ/mol)
+
+
+[moleculetype]
+;molname     exclusions
+PolyLJ13     1
+
+[atoms]
+;id     type    resnr   residu  atom    cgnr    charge
+1     P4     1     ALA     BBc     1     0.000     ;     COI
+2     P4     2     ALA     BBc     2     0.000     ;     COI
+3     P4     3     ALA     BBc     3     0.000     ;     COI
+4     P4     4     ALA     BBc     4     0.000     ;     COI
+5     P4     5     ALA     BBc     5     0.000     ;     COI
+6     P4     6     ALA     BBc     6     0.000     ;     COI
+7     P4     7     ALA     BBc     7     0.000     ;     COI
+8     P4     8     ALA     BBc     8     0.000     ;     COI
+9     P4     9     ALA     BBc     9     0.000     ;     COI
+10    P4     10     ALA     BBc     10     0.000     ;     COI
+11    P4     11     ALA     BBc     11     0.000     ;     COI
+12    P4     12     ALA     BBc     12     0.000     ;     COI
+13    P4     13     ALA     BBc     13     0.000     ;     COI
+
+[ bonds ]
+;backbone-backbone bonds
+; atom atom type dist k
+1     2     1     0.530     1000     ;     COI-COI
+2     3     1     0.530     1000     ;     COI-COI
+3     4     1     0.530     1000     ;     COI-COI
+4     5     1     0.530     1000     ;     COI-COI
+5     6     1     0.530     1000     ;     COI-COI
+6     7     1     0.530     1000     ;     COI-COI
+7     8     1     0.530     1000     ;     COI-COI
+8     9     1     0.530     1000     ;     COI-COI
+9     10    1    0.530      1000     ;     COI-COI
+10    11    1    0.530      1000     ;     COI-COI
+11    12    1    0.530      1000     ;     COI-COI
+12    13    1    0.530      1000     ;     COI-COI
+
+[angles]
+; i j k type angle k
+1      2      3      2      180.00  35      ;      COI-COI-COI
+2      3      4      2      180.00  35      ;      COI-COI-COI
+3      4      5      2      180.00  35      ;      COI-COI-COI
+4      5      6      2      180.00  35      ;      COI-COI-COI
+5      6      7      2      180.00  35      ;      COI-COI-COI
+6      7      8      2      180.00  35      ;      COI-COI-COI
+7      8      9      2      180.00  35      ;      COI-COI-COI
+8      9      10     2      180.00  35      ;      COI-COI-COI
+9      10     11     2      180.00  35      ;      COI-COI-COI
+10     11     12     2      180.00  35      ;      COI-COI-COI
+11     12     13     2      180.00  35      ;      COI-COI-COI
+
+
+
+[ system ]
+; name
+martini water
+
+[ molecules ]
+; name     number
+PolyLJ13    1
+
