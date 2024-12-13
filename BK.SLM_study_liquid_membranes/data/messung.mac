@@ -1,0 +1,95 @@
+#Praktikumsversuch Carlo von Carnap, Caroline Scheper
+#Si-Wafer mit DOPC
+
+shopen
+atton
+umv f 5
+
+
+remote_humidity 88 dopc_CC 2000
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 86 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 84 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 82 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 80 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 78 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 76 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 74 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 72 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 70 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 68 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 66 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 64 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 62 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 60 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 58 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+umv f 5
+remote_humidity 56 dopc_CC 2500
+a2scan th 0 10 tth 0 20 1000 1
+wait_for_pid
+
+
+
+shclose
